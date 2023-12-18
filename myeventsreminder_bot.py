@@ -54,4 +54,4 @@ def remind(message):
     else:
         bot.send_message(user_id, 'У вас пока нет записанных планов.')
 
-bot.infinity_polling() 
+bot.polling() 
